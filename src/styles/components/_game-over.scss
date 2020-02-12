@@ -1,0 +1,25 @@
+.game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.game-over {
+    color: rgb(255, 100, 100);
+    font-weight: bold;
+    font-family: 'Solway', serif;
+    margin-bottom: $xl-size;
+}
+
+.final-score {
+    color: rgb(255, 100, 100);
+    font-weight: bold;
+    font-family: 'Solway', serif;
+    margin: $xl-size 0 6rem 0;
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+.mini-square-inactive {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.mini-square-active {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 242, 231) ;
+    border: 1px solid grey;
+}
+
+.mini-square-correct {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(212, 250, 212);
+    border: 1px solid grey;
+}
+
+.mini-square-incorrect {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(248, 202, 202);
+    border: 1px solid grey;
+}
+
+.mini-square {
+    display: flex;
+    flex-grow: 1;
+}
+

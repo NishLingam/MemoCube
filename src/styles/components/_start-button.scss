@@ -1,0 +1,45 @@
+.start-button-container {
+    display: flex;
+    justify-content: center;
+    margin: $l-size 0 $m-size 0;
+}
+
+.score-counter {
+    display: flex;
+    justify-content: center;
+    margin-top: $s-size;
+
+    font-family: 'Solway', 'serif';
+    font-size: 2.4rem;
+   
+}
+
+.start-button {
+    background: rgb(120, 142, 160);
+    border: 1px solid rgba(128, 128, 128, 0.479) ;
+    border-radius: 100%;
+    padding: 1.5rem 1.5rem;
+
+    font-family: 'Solway', 'serif';
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.753);
+
+    
+}
+
+.start-button:hover:enabled {
+    box-shadow:  0 .3em 1rem;
+}
+
+.start-button:active {
+    background-color: rgb(234, 253, 234);
+}
+
+
+
+.start-button:disabled {
+    cursor: default;
+    color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(120, 142, 160, 0.322);
+}
+
